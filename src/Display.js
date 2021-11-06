@@ -3,12 +3,15 @@ import PropTypes from 'prop-types';
 
 function Display({ input }) {
   return (
-    <div id="display">{ input }</div>
+    <div id="display">
+      { (!!input === false || input === '0')
+       && <p>Date</p> }
+    </div>
   );
 }
 
 Display.defaultProps = {
-  input: 'Hello',
+  input: 'Home',
 };
 
 Display.propTypes = {
