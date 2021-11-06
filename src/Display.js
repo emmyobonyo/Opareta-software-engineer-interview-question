@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Dated from './Date';
 
 function Display({ input }) {
   return (
     <div id="display">
       { (!!input === false || input === '0')
-       && <p>Date</p> }
+       && <Dated /> }
     </div>
   );
 }
