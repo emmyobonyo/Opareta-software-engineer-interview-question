@@ -1,3 +1,27 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+button {
+  padding: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 1px solid lightgray;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+span {
+  font-style: italic;
+  font-weight: bold;
 }
