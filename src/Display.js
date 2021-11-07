@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Dated from './Date';
 import ArrayInput from './ArrayInput';
+import Instructions from './Instructions';
 
 function Display({ input }) {
   return (
@@ -12,6 +13,7 @@ function Display({ input }) {
        && <ArrayInput input={input.split(' ')} /> }
       { (!input.includes(' '))
        && <div>{input}</div>}
+      <Instructions />
     </div>
   );
 }
