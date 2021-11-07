@@ -25,3 +25,7 @@ span {
   font-style: italic;
   font-weight: bold;
 }
+
+.display {
+  font-size: 50px;
+}

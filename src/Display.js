@@ -12,7 +12,7 @@ function Display({ input }) {
       { (input.includes(' '))
        && <ArrayInput input={input.split(' ')} /> }
       { (!input.includes(' '))
-       && <div>{input}</div>}
+       && <div className="display">{input}</div>}
       <Instructions />
     </div>
   );

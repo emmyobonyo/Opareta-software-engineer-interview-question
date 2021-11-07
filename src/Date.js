@@ -13,7 +13,7 @@ function Dated() {
   setInterval(date, 1000);
 
   return (
-    <div id="date" />
+    <div id="date" className="display" />
   );
 }
 

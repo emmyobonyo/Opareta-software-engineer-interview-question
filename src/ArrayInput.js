@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function ArrayInput({ input }) {
   return (
-    <div>
+    <div className="display">
       { input.map((inputs) => (
         <div key={input.indexOf(inputs)}>{inputs}</div>
       ))}

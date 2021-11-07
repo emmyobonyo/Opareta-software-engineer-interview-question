@@ -3,6 +3,7 @@ import React from 'react';
 function Instructions() {
   return (
     <div>
+      <h2>Instructions</h2>
       <p>
         When a user enters a
         <span> false </span>
