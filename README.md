@@ -4,12 +4,12 @@
 
 > A Simple Web App built in React that displays a different output depending on the Users Input.
 
-![False Input](./public/array-input.png)
 > The View if the user enters an array.
-![False Input](./public/false-input.png)
+![False Input](./public/array-input.png)
 > The View if the user enters a False input.
-![False Input](./public/something.png)
+![False Input](./public/false-input.png)
 > The View if the user enters anything else.
+![False Input](./public/something.png)
 
 ## Built With
 
